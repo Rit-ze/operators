@@ -1,0 +1,21 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+  int x,y,r;
+  cin>>x>>y>>r;
+  float si;
+  si=x*y*r/100;
+  float a;
+  a=x+si;
+  float d;
+  d=0.02*si;
+  float final;
+  final=a-d;
+  cout<<fixed<<setprecision(2)<<endl;
+  cout<<si<<endl;
+  cout<<a<<endl;
+  cout<<d<<endl;
+  cout<<final<<endl;
+}
